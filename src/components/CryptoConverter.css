@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.crypto-card{
+    color: white;
+    min-width: 550px;
+    background: rgba(31, 31, 31, 0.4);
+}
+
+#amountBox{
+    display: block;
+    margin: 30px auto;
+    padding: 5px 4px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.selectBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 12px;
+}
+
+#result{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/1039991.jpg');
+}
+
+.fromTo{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: gray;
+}
